@@ -43,9 +43,9 @@
 		data() {
 			return {
 				connectInfo: {
-					clientId: 'App_0109',
-					username: '',
-					password: '',
+					clientId: "driver_" + Math.random().toString(16).substring(2, 8),
+					username: "driver",
+					password: "distinctive0930",
 					clean: false
 				},
 				subscribeInfo: {
@@ -70,7 +70,7 @@
 			async startConnect(){
 				var _this = this
 				let opts = {
-					url: 'wx://你的通讯地址:你的通讯端口号/mqtt',
+					url: 'ws://localhost:8083/mqtt',
 					clientId: this.connectInfo.clientId,
 					username: this.connectInfo.username,
 					password: this.connectInfo.password,

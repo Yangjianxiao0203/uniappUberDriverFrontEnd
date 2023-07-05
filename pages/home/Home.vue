@@ -115,7 +115,7 @@
 			async startConnect(){
 				var _this = this
 				let opts = {
-					url: 'wx://你的通讯地址:你的通讯端口号/mqtt',
+					url: 'ws://localhost:8083/mqtt',
 					clientId: this.connectInfo.clientId,
 					username: this.connectInfo.username,
 					password: this.connectInfo.password,

@@ -1,6 +1,15 @@
 {
 	"pages": [
 		{
+		    "path" : "pages/googleMap/googleMap",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		},
+		{
 			"path": "pages/home/Home",
 			"style": {
 				"navigationBarTitleText": "MQTT",
@@ -19,7 +28,8 @@
 				}
 			}
 		}
-	],
+	    
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
